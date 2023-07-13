@@ -1,0 +1,1 @@
+# data-platform-api-purchase-requisition-deletes-rmq-kube
