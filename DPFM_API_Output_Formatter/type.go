@@ -25,14 +25,14 @@ type SDC struct {
 }
 
 type Message struct {
-	Header *Header `json:"Header"`
-	Item   *[]Item `json:"Item"`
+	Header *[]Header	`json:"Header"`
+	Item   *[]Item		`json:"Item"`
 }
 
 type Header struct {
 	PurchaseRequisition      int     `json:"PurchaseRequisition"`
 	IsMarkedForDeletion 	 *bool   `json:"IsMarkedForDeletion"`
-	Items               	 *[]Item `json:"Items"`
+	Item					 *[]Item `json:"Item"`
 }
 
 type Item struct {
